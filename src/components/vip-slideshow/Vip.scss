@@ -1,0 +1,27 @@
+.vip {
+  padding: 15px;
+
+  .vip-box {
+    .vip-slideshow {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+
+    .channel {
+      margin-top: 20px;
+      margin-bottom: 5px;
+      text-align: center;
+
+      &__link {
+        background-color: #d29319;
+        color: #fffefd;
+        font-family: "opensans-bold";
+        font-size: 15px;
+        padding: 15px;
+        border-radius: 30px;
+      }
+    }
+  }
+}

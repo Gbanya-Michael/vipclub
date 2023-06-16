@@ -1,0 +1,113 @@
+.contact {
+  background-color: #000000;
+  padding: 15px;
+
+  .contact-box {
+    .ticket {
+      text-align: center;
+
+      // display: table;
+      // margin: 0 auto;
+
+      p {
+        color: #fffefd;
+        margin-bottom: 15px;
+        font-family: "jost";
+        font-size: 20px;
+      }
+
+      &__comment {
+        align-self: center;
+        margin-bottom: 1px;
+        textarea {
+          width: 80%;
+          text-align: center;
+          padding: 5px;
+          border-radius: 8px;
+          outline: none;
+          box-shadow: none;
+          border: none;
+        }
+      }
+
+      &__name {
+        margin-bottom: 5px;
+
+        input {
+          width: 60%;
+          text-align: center;
+          padding: 5px;
+          border-radius: 8px;
+          outline: none;
+          box-shadow: none;
+          border: none;
+        }
+      }
+
+      &__email {
+        margin-bottom: 5px;
+        input {
+          text-align: center;
+          width: 60%;
+          padding: 5px;
+          border-radius: 8px;
+          outline: none;
+          box-shadow: none;
+          border: none;
+        }
+      }
+
+      button {
+        color: #fffefd;
+        background-color: #d29319;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+        font-size: 15px;
+      }
+    }
+
+    .telegram {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 15px;
+      margin-bottom: 45px;
+      text-align: center;
+
+      li:first-of-type {
+        color: #d29319;
+        margin-bottom: 10px;
+        font-family: "jost-bold";
+        font-size: 20px;
+      }
+
+      li:last-of-type {
+        color: #fffefd;
+        background-color: #d29319;
+        padding: 10px;
+
+        border-radius: 20px;
+        font-size: 20px;
+      }
+    }
+
+    .declaration {
+      color: #fffefd;
+      font-family: "jost";
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 25px;
+      border: #d29319 2px solid;
+    }
+
+    @media only screen and (min-width: 600px) {
+      max-width: 60%;
+      margin-left: auto;
+
+      margin-right: auto;
+    }
+  }
+}
