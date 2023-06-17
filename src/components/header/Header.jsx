@@ -17,12 +17,15 @@ export default function Header() {
           </div>
           <ul className="header__sign-up">
             <li className="header__sign-up--join">
-              <a href="/" alt="">
+              <a href="https://t.me/+soD-l3_vX1szOGQ1" alt="VIP telegram group">
                 Join Vip Group
               </a>
             </li>
             <li className="header__sign-up--log">
-              <a href="/" alt="">
+              <a
+                href="https://fd888.ph/#/register?referCode=1a2rhw"
+                alt="Sign Up Link"
+              >
                 Sign up for free
               </a>
             </li>

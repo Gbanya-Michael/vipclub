@@ -17,14 +17,14 @@ export default function Contact() {
             <div className="ticket__email">
               <input type="email" placeholder="Enter your email" />
             </div>
-            <button>Submit</button>
+            <button type="submit">Submit</button>
           </div>
 
           <ul className="telegram">
             <li>OR</li>
             <li>
-              <a href="/" alt="">
-                Contact us on Telegram
+              <a href="https://fd888.ph/#/register?referCode=1a2rhw" alt="">
+                Contact us
               </a>
             </li>
           </ul>
@@ -32,7 +32,7 @@ export default function Contact() {
             <p>
               By Joining any of our platforms, you agree to our fair use policy.
             </p>
-            <p>You confirm that you are over 21 years and above</p>
+            <p>You confirm that you are over 18 years of age.</p>
             <p> All Rights Reserved © Fortune Dragon</p>
           </div>
         </div>
